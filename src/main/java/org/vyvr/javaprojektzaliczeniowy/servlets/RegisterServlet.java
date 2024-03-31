@@ -1,4 +1,4 @@
-package org.vyvr.javaprojektzaliczeniowy;
+package org.vyvr.javaprojektzaliczeniowy.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

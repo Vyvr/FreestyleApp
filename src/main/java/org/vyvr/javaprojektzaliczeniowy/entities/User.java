@@ -2,8 +2,9 @@ package org.vyvr.javaprojektzaliczeniowy.entities;
 
 import jakarta.persistence.*;
 
+
 @Entity
-@Table(name = "u  sers")
+@Table(name = "users")
 public class User {
 
     @Id
@@ -17,6 +18,12 @@ public class User {
 
     public User() {
     }
+
+    public User(String password, String email) {
+        this.password = password;
+        this.email = email;
+    }
+
 
     public User(String name, String surname, String password, String email) {
         this.name = name;

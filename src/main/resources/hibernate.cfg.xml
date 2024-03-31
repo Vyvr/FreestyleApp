@@ -24,12 +24,7 @@
 
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">update</property>
-
-        <!-- Define datasource -->
-        <property name="datasource">java:comp/env/jdbc/user</property>
-
-
-        <!-- Mapped class -->
         <mapping class="org.vyvr.javaprojektzaliczeniowy.entities.User"/>
+
     </session-factory>
 </hibernate-configuration>
